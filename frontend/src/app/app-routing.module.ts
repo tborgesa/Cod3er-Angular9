@@ -1,4 +1,4 @@
-import { ClientCreateComponent } from './components/product/client-create/client-create.component';
+import { ClientCreateComponent } from './components/client/client-create/client-create.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ClientCrudComponent } from './views/client-crud/client-crud.component';

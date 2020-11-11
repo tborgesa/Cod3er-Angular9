@@ -1,3 +1,4 @@
+import { MatButtonModule } from '@angular/material/button';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -15,7 +16,7 @@ import { MatCardModule } from  '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ClientCrudComponent } from './views/client-crud/client-crud.component';
-import { ClientCreateComponent } from './components/product/client-create/client-create.component';
+import { ClientCreateComponent } from './components/client/client-create/client-create.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ClientCreateComponent } from './components/product/client-create/client
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
