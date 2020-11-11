@@ -15,5 +15,11 @@
       "name": "Sansung S20+ Ultra",
       "price": 7520.89
     }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Thiago Borges Amaral"
+    }
   ]
 }
