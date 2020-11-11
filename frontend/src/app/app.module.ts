@@ -17,6 +17,7 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ClientCrudComponent } from './views/client-crud/client-crud.component';
 import { ClientCreateComponent } from './components/client/client-create/client-create.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ClientCreateComponent } from './components/client/client-create/client-
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
