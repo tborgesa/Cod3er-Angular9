@@ -11,7 +11,9 @@ import { Client } from '../client.model';
 export class ClientCreateComponent implements OnInit {
 
   client: Client = {
-    name: "Cliente Fixo"
+    name: '',
+    phone: null,
+    email: null
   }
 
   constructor(private clientService: ClientService, private router: Router) { }
