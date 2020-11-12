@@ -25,6 +25,10 @@ import { FormsModule } from '@angular/forms'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input';
 import { ClientReadComponent } from './components/client/client-read/client-read.component';
+import { ClientTableExampleComponent } from './components/client/client-table-example/client-table-example.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -36,6 +40,7 @@ import { ClientReadComponent } from './components/client/client-read/client-read
     ClientCrudComponent,
     ClientCreateComponent,
     ClientReadComponent,
+    ClientTableExampleComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,10 @@ import { ClientReadComponent } from './components/client/client-read/client-read
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
