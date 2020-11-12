@@ -27,4 +27,8 @@ export class ClientService {
   create(client: Client): Observable<Client> {
     return this.http.post<Client>(this.baseUrl, client)
   }
+
+  read(): Observable<Client[]> {
+    return this.http.get<Client[]>(this.baseUrl)
+  }
 }

@@ -23,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http'
 
 import { FormsModule } from '@angular/forms'
 import { MatFormFieldModule } from '@angular/material/form-field'
-import { MatInputModule } from '@angular/material/input'
+import { MatInputModule } from '@angular/material/input';
+import { ClientReadComponent } from './components/client/client-read/client-read.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { MatInputModule } from '@angular/material/input'
     HomeComponent,
     ClientCrudComponent,
     ClientCreateComponent,
+    ClientReadComponent,
   ],
   imports: [
     BrowserModule,
