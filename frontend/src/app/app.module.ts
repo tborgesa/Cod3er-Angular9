@@ -32,6 +32,9 @@ import { MatSortModule } from '@angular/material/sort';
 import { PhonePipe } from './pipes/phone.pipe';
 import { ClientUpdateComponent } from './components/client/client-update/client-update.component';
 
+import {MatDialogModule} from '@angular/material/dialog';
+import { ClientDeleteComponent } from './components/client/client-delete/client-delete.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +48,7 @@ import { ClientUpdateComponent } from './components/client/client-update/client-
     ClientTableExampleComponent,
     PhonePipe,
     ClientUpdateComponent,
+    ClientDeleteComponent,
   ],
   imports: [
     BrowserModule,
@@ -62,7 +66,8 @@ import { ClientUpdateComponent } from './components/client/client-update/client-
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
