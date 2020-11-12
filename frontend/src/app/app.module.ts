@@ -29,6 +29,7 @@ import { ClientTableExampleComponent } from './components/client/client-table-ex
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { PhonePipe } from './pipes/phone.pipe';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { MatSortModule } from '@angular/material/sort';
     ClientCreateComponent,
     ClientReadComponent,
     ClientTableExampleComponent,
+    PhonePipe,
   ],
   imports: [
     BrowserModule,
