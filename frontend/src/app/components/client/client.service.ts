@@ -31,4 +31,12 @@ export class ClientService {
   read(): Observable<Client[]> {
     return this.http.get<Client[]>(this.baseUrl)
   }
+
+  readById(id: string): Observable<Client> {
+    return this.http.get<Client>(`${this.baseUrl}/${id}`)
+  }
+
+  update(client: Client): Observable<Client> {
+    return this.http.put<Client>(`${this.baseUrl}/${client.id}`, client)
+  }
 }
