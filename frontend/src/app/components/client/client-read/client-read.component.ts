@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { Client } from '../client.model';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { ClientDeleteComponent } from '../client-delete/client-delete.component';
-import { read } from 'fs';
 
 @Component({
   selector: 'app-client-read',
