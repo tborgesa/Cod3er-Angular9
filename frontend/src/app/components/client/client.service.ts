@@ -18,7 +18,7 @@ export class ClientService {
   ) { }
 
   showMessage(msg: string, isError: boolean = false): void {
-    this.snackBar.open(msg, 'X', {
+    this.snackBar.open(msg, '', {
       duration: 3000,
       horizontalPosition: "center",
       verticalPosition: "bottom",
