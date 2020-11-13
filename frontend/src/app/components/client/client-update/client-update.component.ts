@@ -10,7 +10,11 @@ import { Client } from '../client.model';
 })
 export class ClientUpdateComponent implements OnInit {
 
-  client: Client;
+  client: Client = {
+    name: '',
+    phone: null,
+    email: null
+  }
 
   constructor(private router: Router,
     private clientService: ClientService,
