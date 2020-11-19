@@ -7,7 +7,7 @@ import { ClientDeleteComponent } from '../client-delete/client-delete.component'
 @Component({
   selector: 'app-client-read',
   templateUrl: './client-read.component.html',
-  styleUrls: ['./client-read.component.css']
+  styleUrls: ['./client-read.component.scss']
 })
 export class ClientReadComponent implements OnInit {
 

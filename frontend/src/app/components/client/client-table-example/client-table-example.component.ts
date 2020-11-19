@@ -7,7 +7,7 @@ import { ClientTableExampleDataSource, ClientTableExampleItem } from './client-t
 @Component({
   selector: 'app-client-table-example',
   templateUrl: './client-table-example.component.html',
-  styleUrls: ['./client-table-example.component.css']
+  styleUrls: ['./client-table-example.component.scss']
 })
 export class ClientTableExampleComponent implements AfterViewInit, OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;

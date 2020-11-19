@@ -8,6 +8,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "inlineTemplate": false,
+          "style": "scss",
           "inlineStyle": false,
           "skipTests": true
         },
@@ -51,8 +52,7 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },

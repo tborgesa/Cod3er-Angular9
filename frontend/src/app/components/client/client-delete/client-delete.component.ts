@@ -6,7 +6,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 @Component({
   selector: 'app-client-delete',
   templateUrl: './client-delete.component.html',
-  styleUrls: ['./client-delete.component.css']
+  styleUrls: ['./client-delete.component.scss']
 })
 export class ClientDeleteComponent implements OnInit {
 

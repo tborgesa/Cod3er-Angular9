@@ -6,7 +6,7 @@ import { Client } from '../client.model';
 @Component({
   selector: 'app-client-update',
   templateUrl: './client-update.component.html',
-  styleUrls: ['./client-update.component.css']
+  styleUrls: ['./client-update.component.scss']
 })
 export class ClientUpdateComponent implements OnInit {
 
