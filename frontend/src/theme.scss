@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+
+$mat-uaiqueijos: (
+    50 : #fdf7e6,
+    100 : #f9ebc0,
+    200 : #f5de96,
+    300 : #f1d16c,
+    400 : #eec74d,
+    500 : #ebbd2d,
+    600 : #e9b728,
+    700 : #e5ae22,
+    800 : #e2a61c,
+    900 : #dd9811,
+    A100 : #ffffff,
+    A200 : #fff0d7,
+    A400 : #ffdea4,
+    A700 : #ffd58b,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+
+$app-primary: mat-palette($mat-uaiqueijos);
+$app-accent: mat-palette($mat-uaiqueijos);
+$app-warn: mat-palette($mat-red);
+
+$app-theme: mat-light-theme(
+  $app-primary,
+  $app-accent,
+  $app-warn
+);
+
+$app-dark-theme: mat-dark-theme(
+  (
+    color: (
+      primary: $app-primary,
+      accent: $app-accent,
+      warn: $app-warn
+    ),
+  )
+);
+
+$primary: mat-color($app-primary);
+$accent: mat-color($app-accent);
+$warn: mat-color($app-warn);

@@ -5,6 +5,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { PortalComponent } from './components/template/portal/portal.component';
+
 import { HeaderComponent } from './components/template/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -38,6 +41,7 @@ import { ClientDeleteComponent } from './components/client/client-delete/client-
 @NgModule({
   declarations: [
     AppComponent,
+    PortalComponent,
     HeaderComponent,
     FooterComponent,
     NavComponent,
