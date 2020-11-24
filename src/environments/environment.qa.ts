@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  name: "Qualidade",
-  urlApi: "http://localhost:8082/"
+  name: "Docker - localhost",
+  urlApi: "http://localhost:8081/"
 };
