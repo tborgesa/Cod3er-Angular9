@@ -1,3 +1,4 @@
+import { environment } from './../../../../environments/environment';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  ambiente: string;
+
+  constructor() { 
+    this.ambiente = environment.production ? "" : environment.name;
+  }
 
   ngOnInit(): void {
   }

@@ -1,3 +1,4 @@
+import { environment } from './../../../environments/environment';
 import { Client } from './client.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -10,7 +11,7 @@ import { catchError, map } from 'rxjs/operators';
 })
 export class ClientService {
 
-  baseUrl = "http://localhost:3001/clients"
+  baseUrl = `${environment.urlApi}clients`
 
   constructor(
     private snackBar: MatSnackBar,
