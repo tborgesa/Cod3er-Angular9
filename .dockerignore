@@ -1,0 +1,6 @@
+node_modules
+mocked_backend
+.git
+.vscode
+README.md
+.gitignore
